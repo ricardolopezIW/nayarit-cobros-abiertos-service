@@ -1,0 +1,17 @@
+server:
+  port: ${NAYARIT_COBROS_ABIERTOS_SERVICE_PORT:8080}
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: nayarit
+
+  application:
+    name: cobros-abiertos-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: nayarit-config
