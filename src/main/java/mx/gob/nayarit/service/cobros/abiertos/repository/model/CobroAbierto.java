@@ -12,7 +12,7 @@ public class CobroAbierto {
 
     @Id
     @Field(name = "_id")
-    private ObjectId id;
+    private Integer id;
 
     @Field(name = "nombre")
     private String nombre;
@@ -35,11 +35,11 @@ public class CobroAbierto {
     @Field(name = "fecha")
     private String fecha;
 
-    public ObjectId getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(ObjectId id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

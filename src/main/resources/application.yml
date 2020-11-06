@@ -7,11 +7,8 @@ spring:
       host: localhost
       port: 27017
       database: nayarit
+      repositories:
+        enabled: true
 
   application:
     name: cobros-abiertos-service
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: nayarit-config

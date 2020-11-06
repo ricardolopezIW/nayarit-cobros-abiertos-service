@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface CobrosAbiertosService {
     List<CobroAbierto> all();
+    String genera(CobroAbierto cobroAbierto);
 }
